@@ -1,0 +1,27 @@
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local credentials and editor files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.idea/
+.vscode/
+
+# Patient data, prediction records, training logs and trained artifacts
+data/
+logs/
+models/
+*.db
+*.db-*
+*.sqlite*
+
+# Local drafts and operating system files
+scratch_*
+Thumbs.db
+.DS_Store

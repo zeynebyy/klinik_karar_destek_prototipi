@@ -1,0 +1,12 @@
+gymnasium
+stable-baselines3[extra]
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+streamlit
+tensorboard
+xgboost
+shap
+plotly
